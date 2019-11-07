@@ -31,4 +31,4 @@ jobs:
 
     - name: Run Tests
       run: |
-        bundle exec rake test
+        bundle exec rails test

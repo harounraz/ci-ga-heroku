@@ -13,9 +13,9 @@ jobs:
           --health-timeout 5s
           --health-retries 5s
       redis:
-          images: redis
-          ports: ['6379:6379']
-          options: --entrypoint redis-server
+        images: redis
+        ports: ['6379:6379']
+        options: --entrypoint redis-server
 
     steps:
       - uses: actions/checkout@v1

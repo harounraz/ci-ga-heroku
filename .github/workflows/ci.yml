@@ -24,8 +24,8 @@ jobs:
         with:
           ruby-version: 2.5.3
       - uses: borales/actions-yarn@v1.19.x
-          with:
-            cmd: install
+        with:
+          cmd: install
       - name: Build and Run Tests
         env:
           DATABASE_URL: postgres://postgres:@localhost:5432/test

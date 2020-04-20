@@ -10,10 +10,6 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Setup System
-      run: |
-        sudo apt-get install libsqlite3-dev
-
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:

@@ -1,4 +1,4 @@
-name: CI Test
+name: CI/CD Tests & Deploy #~@raz
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: CI/CD Tests & Deploy `#~@raz`
+name: CI/CD Tests & Deploy '#~@raz'
 
 on:
   push:
